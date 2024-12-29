@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - GameShot</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/games/rock-paper-scissors.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="game-stats">
+            <div id="score">You: 0 - Computer: 0</div>
+        </div>
+        <div class="choices">
+            <div>
+                You chose: <span id="playerChoice">-</span>
+            </div>
+            <div>
+                Computer chose: <span id="computerChoice">-</span>
+            </div>
+        </div>
+        <div id="result" class="result">Choose your move!</div>
+        <div class="buttons">
+            <button class="choice-btn" data-choice="rock">✊ Rock</button>
+            <button class="choice-btn" data-choice="paper">✋ Paper</button>
+            <button class="choice-btn" data-choice="scissors">✌️ Scissors</button>
+        </div>
+    </div>
+    <script type="module">
+        import { initRockPaperScissors } from '/src/js/games/rock-paper-scissors.js';
+        initRockPaperScissors();
+    </script>
+</body>
+</html>
