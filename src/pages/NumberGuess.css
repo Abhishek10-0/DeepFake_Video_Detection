@@ -1,0 +1,100 @@
+.number-guess {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.number-guess-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.number-guess-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.number-guess-message {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #ebf8ff;
+  border-radius: 0.5rem;
+  color: #2b6cb0;
+}
+
+.number-guess-input {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.number-guess-input input {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  width: 120px;
+  text-align: center;
+}
+
+.number-guess-input button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.number-guess-input button:hover {
+  background: #3182ce;
+  transform: translateY(-2px);
+}
+
+.number-guess-reset {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.number-guess-reset:hover {
+  background: #38a169;
+  transform: translateY(-2px);
+}
+
+.number-guess-best {
+  font-size: 1.1rem;
+  color: #718096;
+  margin-top: 1rem;
+}
+
+.number-guess-feedback {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+} 

@@ -1,0 +1,117 @@
+.speed-clicker {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.speed-clicker-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.speed-clicker-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.speed-clicker-score,
+.speed-clicker-high,
+.speed-clicker-timer {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background: #edf2f7;
+  border-radius: 0.5rem;
+}
+
+.speed-clicker-button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #ed8936;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: pulse 2s infinite;
+}
+
+.speed-clicker-button:active {
+  transform: scale(0.95);
+  background: #dd6b20;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.speed-clicker-menu {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.speed-clicker-menu h2 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.speed-clicker-menu p {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.speed-clicker-start {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.speed-clicker-start:hover {
+  background: #38a169;
+  transform: translateY(-2px);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.final-score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin: 1rem 0;
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.speed-clicker-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}

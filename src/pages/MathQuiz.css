@@ -1,0 +1,73 @@
+.math-quiz {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.math-quiz-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.math-quiz-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.math-quiz-question {
+  margin: 2rem 0;
+}
+
+.question {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2b6cb0;
+}
+
+.math-quiz-input {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.math-quiz-input input {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  width: 120px;
+  text-align: center;
+}
+
+.math-quiz-input button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.math-quiz-input button:hover {
+  background: #3182ce;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+} 

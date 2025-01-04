@@ -1,0 +1,89 @@
+.simon-says {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.simon-says-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.simon-says-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.simon-says-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background: #2d3748;
+  border-radius: 50%;
+}
+
+.simon-button {
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.simon-button:hover {
+  filter: brightness(1.2);
+}
+
+.simon-button.green { background: #48bb78; }
+.simon-button.red { background: #f56565; }
+.simon-button.yellow { background: #ecc94b; }
+.simon-button.blue { background: #4299e1; }
+
+.simon-button.active {
+  filter: brightness(1.5);
+}
+
+.simon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.simon-says-menu {
+  margin: 2rem 0;
+}
+
+.simon-says-start {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.simon-says-start:hover {
+  background: #38a169;
+}
+
+.game-over-message {
+  font-size: 1.5rem;
+  color: #e53e3e;
+  margin-bottom: 1rem;
+}
+
+.simon-says-instructions {
+  margin-top: 2rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+} 

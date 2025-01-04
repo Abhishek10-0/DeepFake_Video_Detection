@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4a90e2;
+  --primary-dark: #357abd;
+  --secondary: #e74c3c;
+  --secondary-dark: #c0392b;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-700: #374151;
+  --gray-900: #111827;
+  --white: #ffffff;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.game-container {
+  @apply max-w-4xl mx-auto p-8;
+}
+
+.game-title {
+  @apply text-4xl font-bold text-center mb-8;
+}
+
+.game-card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-lg font-semibold transition-all;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-red-600 text-white hover:bg-red-700;
+} 

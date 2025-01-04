@@ -1,0 +1,71 @@
+.word-scramble {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.word-scramble-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.word-scramble-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.scrambled-word {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin: 2rem 0;
+  color: #2b6cb0;
+}
+
+.word-scramble-input {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.word-scramble-input input {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.word-scramble-input button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.word-scramble-input button:hover {
+  background: #3182ce;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+} 

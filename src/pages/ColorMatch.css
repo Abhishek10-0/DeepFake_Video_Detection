@@ -1,0 +1,153 @@
+.color-match {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.color-match-header {
+  margin-bottom: 2rem;
+}
+
+.color-match-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.color-match-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  padding: 0.5rem 1rem;
+  background: #edf2f7;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.timer {
+  background: #4299e1;
+  color: white;
+}
+
+.color-match-game {
+  margin: 2rem 0;
+}
+
+.color-match-word {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.color-match-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.match-button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.match-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.match-button.match {
+  background: #48bb78;
+}
+
+.match-button.match:hover {
+  background: #38a169;
+}
+
+.match-button.no-match {
+  background: #f56565;
+}
+
+.match-button.no-match:hover {
+  background: #e53e3e;
+}
+
+.color-match-menu {
+  margin: 2rem 0;
+}
+
+.color-match-menu h2 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.color-match-menu p {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.start-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.start-button:hover {
+  background: #3182ce;
+  transform: translateY(-2px);
+}
+
+.instructions {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #edf2f7;
+  border-radius: 0.5rem;
+  color: #4a5568;
+}
+
+.instructions p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.color-match-word {
+  animation: fadeIn 0.3s ease-out;
+} 
