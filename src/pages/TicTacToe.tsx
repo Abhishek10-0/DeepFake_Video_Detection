@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './TicTacToe.css';
 
 type Player = 'X' | 'O' | null;

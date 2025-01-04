@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Gamepad, Star, Users, Zap, Brain, Target, Puzzle, Clock, Calculator, Music } from 'lucide-react';
+
+import { Gamepad,  Users, Zap, } from 'lucide-react';
 import GameCard from '../components/GameCard';
 
 const games = [

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './ColorMatch.css';
 
 const COLORS = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];

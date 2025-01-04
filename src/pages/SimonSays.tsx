@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './SimonSays.css';
 
 const COLORS = ['green', 'red', 'yellow', 'blue'];
